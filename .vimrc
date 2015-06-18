@@ -16,6 +16,12 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Fast quit
+nmap <leader>q :q<cr>
+
+" Fast saving and quit
+nmap <leader>wq :wq<cr>
+
 set cindent
 
 " Turn on the WiLd menu
