@@ -154,3 +154,26 @@ if has("cscope")
 	nmap <C-_><C-_>d
 		\:vert scs find d <C-R>=expand("<cword>")<CR><CR>
 endif
+
+"hide line number
+"set nonu
+"show line number
+set number
+"show or hide line number
+"set nu!
+
+"auto indent 自动缩进
+set autoindent
+"set list: show tab as >------- and trail space as $
+set listchars=tab:>-,trail:$
+
+"autocmd FileType c,cpp  setl fdm=syntax | setl fen
+"Set mapleader
+let mapleader = ","
+
+"Fast reloading of the .vimrc
+map <silent> <leader>ss :source ~/.vimrc<cr>
+"Fast editing of .vimrc
+map <silent> <leader>ee :e ~/.vimrc<cr>
+"When .vimrc is edited, reload it
+autocmd! bufwritepost .vimrc source ~/.vimrc
