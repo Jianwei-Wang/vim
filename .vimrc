@@ -167,10 +167,6 @@ set autoindent
 "set list: show tab as >------- and trail space as $
 set listchars=tab:>-,trail:$
 
-"autocmd FileType c,cpp  setl fdm=syntax | setl fen
-"Set mapleader
-let mapleader = ","
-
 "Fast reloading of the .vimrc
 map <silent> <leader>ss :source ~/.vimrc<cr>
 "Fast editing of .vimrc
