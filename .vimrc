@@ -179,3 +179,16 @@ map <silent> <leader>ss :source ~/.vimrc<cr>
 map <silent> <leader>ee :e ~/.vimrc<cr>
 "When .vimrc is edited, reload it
 autocmd! bufwritepost .vimrc source ~/.vimrc
+
+"record the last edit place. 记忆上次编辑位置
+"if .viminfo access permission as follow: 
+"-rw------- 1 root root 4558 2011-12-09 13:58 ./.viminfo
+"only root user can go to the last edit place.
+"solution:
+"sudo chmod a+w ./.viminfo
+"sudo chmod a+r ./.viminfo
+autocmd BufReadPost *
+		\ if line("'\"")>0&&line("'\"")<=line("$") |
+		\	exe "normal g'\"" |
+		\ endif
+
