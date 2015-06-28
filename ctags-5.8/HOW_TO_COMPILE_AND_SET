@@ -1,9 +1,10 @@
 I will give you an example on how to compile and set ctag.
 
-1, ./configure --prefix=/home/wangjw/source_code/mycode/vim/ctags
+1, ./configure --prefix=/home/wangjw/.vim/ctags
 
 2, make
 
 3, make install
 
-4, export PATH=$PATH:/home/wangjw/source_code/mycode/vim/ctags/bin
+4, Add below command in ~/.profile:
+   export PATH=$PATH:/home/wangjw/.vim/ctags/bin
