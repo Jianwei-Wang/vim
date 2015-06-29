@@ -22,6 +22,15 @@ nmap <leader>q :q<cr>
 " Fast saving and quit
 nmap <leader>wq :wq<cr>
 
+" Fast set list
+nmap <leader>sl :set list<cr>
+
+" Fast set nolist
+nmap <leader>nl :set nolist<cr>
+
+" Fast show or hide line number
+nmap <leader>sn :set nu!<cr>
+
 set cindent
 
 " Turn on the WiLd menu
