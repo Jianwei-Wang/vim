@@ -1,0 +1,13 @@
+I will give you an example on how to configure taglist
+
+1, unzip taglist_46.zip
+
+2, cp doc/taglist.txt ~/.vim/doc or ~/vimfiles/doc
+
+3, cp plugin/taglist.vim ~/.vim/plugin or ~/.vim/plugin
+
+4, If neither .vim nor vimfiles folder exit, you need create it yourself.
+
+5, :TlistToggle for testing taglist
+
+6, :help taglist for testing taglist help

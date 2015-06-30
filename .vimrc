@@ -8,6 +8,7 @@ set backspace=indent,eol,start
 filetype on
 filetype plugin on
 filetype indent on
+
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
@@ -15,6 +16,9 @@ let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+
+" Fast quit
+nmap <leader>q :q<cr>
 
 " Fast quit
 nmap <leader>q :q<cr>
@@ -30,6 +34,9 @@ nmap <leader>nl :set nolist<cr>
 
 " Fast show or hide line number
 nmap <leader>sn :set nu!<cr>
+
+" Fast tag list
+nmap <leader>t :Tlist<cr>
 
 set cindent
 
