@@ -71,7 +71,8 @@ syntax enable                     "Enable syntax highlighting
 
 syntax on
 
-colorscheme desert
+"Available color styles in /usr/share/vim/vim74/colors/
+colorscheme desert                "Change color style
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
