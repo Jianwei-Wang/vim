@@ -17,9 +17,10 @@
     Plugin 'VundleVim/Vundle.vim'
 
     "Add your bundles here, below are examples:
-"    Plugin 'Syntastic' "uber awesome syntax and errors highlighter
-"    Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
-"    Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal
+    Plugin 'Syntastic' "uber awesome syntax and errors highlighter
+    Plugin 'scrooloose/nerdcommenter' "NERD Commenter
+    Plugin 'scrooloose/nerdtree'  "NERDTree
+    Plugin 'https://github.com/fholgado/minibufexpl.vim'  "MiniBufferExplorer
 
     if iCanHazVundle == 0
         echo "Installing Vundles, please ignore key map error messages"
