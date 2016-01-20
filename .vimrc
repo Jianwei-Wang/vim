@@ -101,6 +101,12 @@ nmap <leader>nl :set nolist<cr>   "Fast set nolist
 
 nmap <leader>sn :set nu!<cr>      "Fast show or hide line number
 
+"set splite screen size adjust shortcuts
+nmap <C-h> :vertical resize +1<CR>
+nmap <C-l> :vertical resize -1<CR>
+nmap <C-j> :resize -1<CR>
+nmap <C-k> :resize +1<CR>
+
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
