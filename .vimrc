@@ -78,28 +78,28 @@ colorscheme desert                "Change color style
 " like <leader>w saves the current file
 let mapleader = ","
 let g:mapleader = ","
-
-map <space> /                     "Map <Space> to / search
-
-map <c-space> ?                   "Ctrl-<Space> to ? backwards search
-
-map 0 ^                           "Remap VIM 0 to first non-blank character
-
-map <silent> <leader>ss :source ~/.vimrc<cr>    "Fast reloading of the .vimrc
-
-map <silent> <leader>ee :e ~/.vimrc<cr>         "Fast editing of .vimrc
-
-nmap <leader>w :w!<cr>            "Fast saving
-
-nmap <leader>q :q<cr>             "Fast quit
-
-nmap <leader>wq :wq<cr>           "Fast saving and quit
-
-nmap <leader>sl :set list<cr>     "Fast set list
-
-nmap <leader>nl :set nolist<cr>   "Fast set nolist
-
-nmap <leader>sn :set nu!<cr>      "Fast show or hide line number
+"Map <Space> to / search
+map <space> /
+"Ctrl-<Space> to ? backwards search
+map <c-space> ?
+"Remap VIM 0 to first non-blank character
+map 0 ^
+"Fast reloading of the .vimrc
+map <silent> <leader>ss :source ~/.vimrc<cr>
+"Fast editing of .vimrc
+map <silent> <leader>ee :e ~/.vimrc<cr>
+"Fast saving
+nmap <leader>w :w!<cr>
+"Fast quit
+nmap <leader>q :q<cr>
+"Fast saving and quit
+nmap <leader>wq :wq<cr>
+"Fast set list
+nmap <leader>sl :set list<cr>
+"Fast set nolist
+nmap <leader>nl :set nolist<cr>
+"Fast show or hide line number
+nmap <leader>sn :set nu!<cr>
 
 "set splite screen size adjust shortcuts
 nmap <C-h> :vertical resize +1<CR>
