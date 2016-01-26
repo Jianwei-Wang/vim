@@ -21,6 +21,7 @@
     Plugin 'scrooloose/nerdcommenter' "NERD Commenter
     Plugin 'scrooloose/nerdtree'  "NERDTree
     Plugin 'https://github.com/fholgado/minibufexpl.vim'  "MiniBufferExplorer
+    Plugin 'taglist.vim'  "Tag list. Install ctags:sudo apt-get install ctags
     "for c plugin below:
     "
     "
