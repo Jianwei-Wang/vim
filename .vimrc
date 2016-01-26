@@ -21,6 +21,20 @@
     Plugin 'scrooloose/nerdcommenter' "NERD Commenter
     Plugin 'scrooloose/nerdtree'  "NERDTree
     Plugin 'https://github.com/fholgado/minibufexpl.vim'  "MiniBufferExplorer
+    "for c plugin below:
+    "
+    "
+
+    "
+    "
+    "c plugin end
+    "for c plugin below:
+    "
+    "
+
+    "
+    "
+    "c plugin end
 
     if iCanHazVundle == 0
         echo "Installing Vundles, please ignore key map error messages"
