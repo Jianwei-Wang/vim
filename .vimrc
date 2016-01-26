@@ -22,6 +22,7 @@
     Plugin 'scrooloose/nerdtree'  "NERDTree
     Plugin 'https://github.com/fholgado/minibufexpl.vim'  "MiniBufferExplorer
     Plugin 'taglist.vim'  "Tag list. Install ctags:sudo apt-get install ctags
+    Plugin 'lrvick/Conque-Shell'  "Simulate a split shell in vim
     "for c plugin below:
     "
     "
