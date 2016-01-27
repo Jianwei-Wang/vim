@@ -20,6 +20,7 @@
     Plugin 'Syntastic' "uber awesome syntax and errors highlighter
     Plugin 'scrooloose/nerdcommenter' "NERD Commenter
     Plugin 'scrooloose/nerdtree'  "NERDTree
+    Plugin 'ervandew/supertab' "Perform all your vim insert mode completions with Tab
     Plugin 'https://github.com/fholgado/minibufexpl.vim'  "MiniBufferExplorer
     Plugin 'taglist.vim'  "Tag list. Install ctags:sudo apt-get install ctags
     Plugin 'lrvick/Conque-Shell'  "Simulate a split shell in vim
