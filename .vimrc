@@ -38,6 +38,13 @@
     "
     "
     "c plugin end
+    "for c plugin below:
+    "
+    "
+
+    "
+    "
+    "c plugin end
 
     if iCanHazVundle == 0
         echo "Installing Vundles, please ignore key map error messages"
