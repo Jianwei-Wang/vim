@@ -41,7 +41,7 @@
     "for c plugin below:
     "
     "
-
+    Plugin 'javacomplete'  "java complate
     "
     "
     "c plugin end
