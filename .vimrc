@@ -119,6 +119,7 @@ set tm=500
 " Format the status line
 " set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 set statusline=%<%f\ %h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
+let g:miniBufExplMaxSize=2        "Limit max window size
 
 filetype on                       "Enable filetype plugins
 
