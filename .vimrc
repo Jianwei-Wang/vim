@@ -108,6 +108,8 @@ set number                        "show line number
 
 set autoindent                    "auto indent 自动缩进
 
+set virtualedit=onemore           "allow cursor move to the last character
+
 set listchars=tab:>-,trail:$      "set list: show tab as >------- and trail space as $
 
 " No annoying sound on errors
